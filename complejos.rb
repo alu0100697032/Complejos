@@ -14,8 +14,16 @@ class Complejo
             puts "#{@real} #{@imaginaria}i"
         end    
     end
-    #instancia de un complejo y representacion del mismo
-    c = Complejo.new(0,3)
-    c.to_s
-    
 end
+
+#instancia de un complejo y representacion del mismo
+c1 = Complejo.new(5,3)
+c2 = Complejo.new(2,4)
+#c1.to_s
+
+#suma de dos complejos 
+def suma(a, b)
+    #aux = Complejo.new(@real+c2.real, @imaginaria+c2.imaginaria)
+    puts "Suma: #{a.real + b.real}" 
+end
+suma(c1, c2)
