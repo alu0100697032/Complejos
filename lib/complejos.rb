@@ -9,7 +9,7 @@ class Complejo
     end
     #representa el numero complejo 
     def to_s
-        if @imaginaria.to_f > 0
+        if @imaginaria.to_i > 0
             "#{@real} +#{@imaginaria}i"
         else 
             "#{@real} #{@imaginaria}i"
